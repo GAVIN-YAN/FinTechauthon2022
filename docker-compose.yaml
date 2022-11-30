@@ -1,0 +1,14 @@
+# Copyright IBM Corp. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+# 
+
+standalone_fate:
+    container_name: standalone_fate
+    image: federatedai/standalone_fate:1.8.0
+#    environment:
+#      - CORE_PEER_ID=peer1.org1.example.com
+    volumes:
+      - /home/yanfeng/fate:/home/yanfeng/fate
+    ports:
+      - 8080:8080                           
