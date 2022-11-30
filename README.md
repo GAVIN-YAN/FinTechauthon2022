@@ -1,5 +1,5 @@
 # FinTechauthon2022
-predcition of partition's bus voltage based on FATE 
+Predcition of partition's bus voltage based on FATE 
 - case1~3.py &nbsp; 集中式训练模型case1-3
 - case4.py	&nbsp;联邦模型case4
 - case5.py	&nbsp;联邦模型case5
